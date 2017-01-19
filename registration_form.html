@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CdO goes Green</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header-nav">   
+            <ul>
+                <li><img src="green-cdo.png" class="green-cdo" alt="logo"></li>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li class="dropdown">
+                <a href="vision.html" class="nav-link">Vision</a>
+                    <div class="dropdown-content">
+                      <a href="vision.html">Sustainability</a>
+                      <a href="vision.html">Future Plans</a>
+                    </div>
+                </li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="features.html">Features</a></li>
+                <li class="dropdown">
+                <a href="history.html" class="nav-link">History</a>
+                    <div class="dropdown-content">
+                      <a href="history.html">2011</a>
+                      <a href="history.html">Recovery</a>
+                    </div>
+                </li>
+                <li><a class="nav-link" href="environment.html">Environment</a></li>
+                <li><a class="nav-link1" href="registration_form.html">Join Us!</a></li>
+            </ul>
+        </div>
+        <div class="table1">
+            <h2 id="form-sign">Sign up here</h2>
+            <form action="formproc.php" method="post" autocomplete="off">
+                <fieldset>
+                    <legend>Registration Form</legend>
+                    <div class="form-row">
+                        <label for="field1">Name:</label>
+                        <input type="text" id="field1" name="name" placeholder="Full Name">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" min="18" max="99">
+                    </div>
+                    <div class="form-row">
+                        <label for="age">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                    <div class="form-row">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="form-row">
+                        <label for="gender">Gender:</label>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </div>
+                    <div class="form-row">
+                        <label for="local">Barangay:</label>
+                        <select id="local" name="local">
+                            <option value="CA">Carmen</option>
+                            <option value="KA" selected>Kauswagan</option>
+                            <option value="MA">Macanhan</option>
+                            <option value="BU">Bulua</option>
+                            <option value="CU">Cugman</option>
+                            <option value="UR">Urban Barangay</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="comments">Comments: </label>
+                        <textarea id="comments" name="comments"></textarea>
+                    </div>
+                    <div class="radio-row">
+                        <label>
+                            <input type="checkbox" name="agree"> I Agree to the terms.
+                        </label>
+                    </div>
+                    <div class="radio-row">
+                        <input type="submit" value="Let's Go Green!">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        
+        <footer>
+            <div class="footer">
+                <p>
+                Brigham Young University - Hawaii <br>
+                IT240 - Web Design <br>
+                Instructor: Chris Slade <br>
+                &copy; 2016 Heber Jay Indino <br>
+                </p>
+            </div>
+            <div class="footer">
+            <img src="green-cdo.png" class="green-cdo1" alt="logo">
+            </div>
+        </footer>
+    </body>
+</html>
