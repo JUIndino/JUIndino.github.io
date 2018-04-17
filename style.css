@@ -673,3 +673,12 @@ form legend {
     background-color: #69f0ae;
     color: #009900;
 }
+
+
+/*FOR MOBILE DEVICES*/
+@media screen only (max-width: 480px) {
+li {
+    float:none;
+    display: block;
+   }
+}
